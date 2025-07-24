@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header section */
+header {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    font-family: Inter;
+}
+
+nav>ul>li {
+    list-style: none;
+
+}
+
+.home {
+    font-weight: 700;
+
+}
+
+.color {
+    color: #8987A1;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+/* sectioin 1 */
+
+.first-section {
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+.banner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.banner-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: Noto serif;
+}
+
+.banner-text span {
+    color: #E95A08;
+}
+
+.banner-text p {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Inter';
+    font-size: 22px;
+    margin-top: 15px;
+}
