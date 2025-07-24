@@ -25,7 +25,7 @@
         margin-top: 25px;
     }
 
-    /* section */
+    /* section 1*/
     .banner {
     display: flex;
     flex-direction: column-reverse;
@@ -43,6 +43,58 @@
     
     font-size: 14px;
     margin-top: 8px;
+}
+/* section 2 */
+.second-section {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.plant h1 {
+    font-size: 24px;
+  
+    margin-bottom: 10px;
+}
+.plant p {
+  
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.plant-card{
+    
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+.single-card{
+    width: 136px;
+}
+
+.single-card img{
+    width: 100%;
+}
+.single-card h3 {
+    font-size: 16px;
+    
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.single-card h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    
+}
+
+.single-card button {
+    width: 136px;
+   
+    padding: 12px 0;
+    
+    font-weight: 600;
+   
+    font-size: 16px;
+    word-spacing: 3px;
 }
 
 }

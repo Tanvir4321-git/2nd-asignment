@@ -80,3 +80,65 @@ nav>ul>li {
     font-size: 22px;
     margin-top: 15px;
 }
+/* section 2 */
+.second-section {
+    margin-top: 80px;margin-bottom: 60px;}
+.plant h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Noto serif;
+    margin-bottom: 16px;
+}
+.plant span{
+    color: #E95A08;
+}
+
+
+
+.plant p {
+    color: #00000080;
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 49px;
+}
+.plant-card{
+    display: grid;
+    grid-template-columns: repeat(4, 256px);
+    gap: 20px;
+}
+
+.single-card img{
+    width: 100%;
+}
+.single-card h3 {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Inter';
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.single-card h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: Inter;
+     text-align: center;
+}
+
+.single-card button {
+    width: 256px;
+   
+    padding: 19px 0;
+    background-color:  #e95a08;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-family: 'Inter';
+    cursor: pointer;
+    font-size: 18px;
+    word-spacing: 7px;
+}
