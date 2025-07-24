@@ -209,7 +209,7 @@ nav>ul>li {
 .last-deal span{
     color: #E95A08;
 }
-.last-deal{
+.last-deal {
       color: #00000080;
     font-family: 'Inter';
     text-align: center;
@@ -248,6 +248,7 @@ nav>ul>li {
     font-weight: 700;
     font-family: Noto Serif;
     
+    
 }
 .left-two{
    
@@ -261,6 +262,7 @@ nav>ul>li {
       font-size: 20px;
     font-weight: 700;
     font-family: Noto Serif;
+
 }
 .flex-r{
     background-image: url(./img/deal-zabo.png);
@@ -275,4 +277,45 @@ nav>ul>li {
       font-size: 40px;
     font-weight: 700;
     font-family: Noto Serif;
+    
+}
+/* last section */
+.last-section{
+    background-image: url(./img/news-letter-bg.png);
+      background-repeat: no-repeat;
+    background-size: cover;
+     height: 533px;
+    background-position: center;
+}
+.join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      height: 533px;
+      padding-top: 70px;
+
+}
+.join h2 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Noto Serif';
+    margin-bottom: 23px;
+     text-align: center;
+}
+input {
+    padding: 15px 20px;
+    width: 644px;
+    border: none;
+    font-family: 'Inter';
+  
+}
+
+.join button {
+    padding: 15px 50px;
+    background-color:  #E95A08;
+    border: none;
+    font-family: 'Inter';
+    color: white;
+    
+     
 }
