@@ -319,3 +319,31 @@ input {
     
      
 }
+/* footer */
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px
+}
+.footer-items p {
+    font-family: 'Inter';
+    font-size: 22px;
+    color: #00000080;
+    width: 360px;
+    margin-top: 10px;
+}
+
+.footer-items li {
+    font-family: 'Inter';
+    list-style: none;
+    color: #00000080;
+    margin-bottom: 32px;
+}
+
+.logo-flex {
+    display: flex;
+
+    align-items: center;
+    height: 15px;
+    gap: 30px;
+}
