@@ -236,7 +236,8 @@ nav>ul>li {
     gap: 15px;
 }
 .left-one{
-     background-image: url(./img/deal-bloom.png);
+    background-image: linear-gradient(#00000066);
+     background-image: url(./img/deal-bloom\ .png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -252,7 +253,7 @@ nav>ul>li {
 }
 .left-two{
    
-      background-image: url(./img/deal-ana.png);
+      background-image: url(./img/deal-ana\ .png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -265,7 +266,8 @@ nav>ul>li {
 
 }
 .flex-r{
-    background-image: url(./img/deal-zabo.png);
+     background-image: linear-gradient(#00000066);
+    background-image: url(./img/deal-zabo\ .png);
     width: 70%;
     
     background-repeat: no-repeat;
